@@ -65,7 +65,7 @@ const activityItems = [
 
 export default function Shows() {
 	return (
-		<ul role="list" className="divide-y divide-white/5 w-1/2 mx-auto">
+		<ul role="list" className="divide-y divide-white/5 sm:w-1/2 sm:px-0 px-3 mx-auto">
 			{activityItems.map((item) => (
 				<li key={item.commit} className="py-4">
 					<div className="flex items-center gap-x-3">
