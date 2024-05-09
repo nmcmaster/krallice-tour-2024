@@ -5,10 +5,26 @@ import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 const IndexPage: React.FC<PageProps> = () => {
 	return (
-		<main className="h-screen w-screen text-white font-serif"><div className="flex justify-center">
-			<StaticImage alt="krallice logo" src='../images/krallicelogo.png' className="w-1/3" /></div>
-			<h1 className="text-center text-2xl mt-4 mb-1">KRALLICE WORLD TOUR 2024</h1>
+		<main className="h-screen w-screen text-white font-serif">
+			<div className="flex justify-center">
+				<StaticImage
+					alt="krallice logo"
+					src="../images/krallicelogo.png"
+					className="w-1/3"
+				/>
+			</div>
+			<h1 className="text-center text-2xl mt-4 mb-1">
+				KRALLICE WORLD TOUR 2024
+			</h1>
 			<Shows />
+			<div className="flex justify-center mt-8">
+				{" "}
+				<StaticImage
+					alt="krallice logo"
+					src="../images/poster.jpg"
+					className="w-2/3"
+				/>
+			</div>
 		</main>
 	);
 };
