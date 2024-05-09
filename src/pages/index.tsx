@@ -1,7 +1,7 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 import Shows from "../components/Shows";
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 const IndexPage: React.FC<PageProps> = () => {
 	return (
@@ -10,7 +10,7 @@ const IndexPage: React.FC<PageProps> = () => {
 				<StaticImage
 					alt="krallice logo"
 					src="../images/krallicelogo.png"
-					className="sm:w-1/3 w-full"
+					className="sm:w-1/2 sm:mx-0 mx-3 w-full"
 				/>
 			</div>
 			<h1 className="text-center text-2xl mt-4 mb-1">
@@ -18,11 +18,24 @@ const IndexPage: React.FC<PageProps> = () => {
 			</h1>
 			<Shows />
 			<div className="flex justify-center mt-8 pb-5">
-				{" "}
 				<StaticImage
-					alt="krallice logo"
-					src="../images/poster.jpg"
+					alt="philly poster"
+					src="../images/phillyposter.jpg"
+					className="sm:w-1/2 sm:mx-0 mx-3 w-full"
+				/>
+			</div>
+			<div className="flex justify-center">
+				<StaticImage
+					alt="portland poster"
+					src="../images/portland.jpg"
 					className="sm:w-1/2 w-full"
+				/>
+			</div>
+			<div className="flex justify-center mt-8 pb-5">
+				<StaticImage
+					alt="tour poster"
+					src="../images/poster.jpg"
+					className="sm:w-1/2 sm:mx-0 mx-3 w-full"
 				/>
 			</div>
 		</main>

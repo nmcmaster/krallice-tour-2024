@@ -8,7 +8,7 @@ export interface Show {
 export const shows: Show[] = [
 	{
 		venue: "Middle East",
-		link: "http://google.com",
+		link: "https://www.ticketweb.com/event/krallice-middle-east-upstairs-tickets/13479124",
 		date: "August 7",
 
 		cityState: "Cambridge, MA",
@@ -22,7 +22,7 @@ export const shows: Show[] = [
 	},
 	{
 		venue: "Alchemy",
-		link: "http://google.com",
+		link: "https://dice.fm/partner/dice/event/mwakr-krallice-9th-aug-alchemy-providence-tickets",
 		date: "August 9",
 
 		cityState: "Providence, RI",
@@ -67,7 +67,7 @@ export const shows: Show[] = [
 		link: "https://www.eventbrite.com/e/krallice-a-special-2-hr-performance-tickets-883575737817",
 		date: "August 15",
 		otherLink: "https://www.instagram.com/p/C506mVVLaI9",
-		cityState: "Richmond, VA",
+		cityState: "New Kensington, PA",
 	},
 	{
 		venue: "Beachland (tavern)",

@@ -5,7 +5,7 @@ export default function Shows() {
 	return (
 		<ul
 			role="list"
-			className="divide-y divide-white/5 sm:w-1/2 lg:w-1/3 sm:px-0 px-4 mx-auto"
+			className="divide-y divide-white/5 sm:w-1/2 sm:px-0 px-4 mx-auto"
 		>
 			{shows.map((show) => (
 				<li key={show.date} className="py-4">
