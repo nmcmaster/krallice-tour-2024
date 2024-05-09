@@ -10,19 +10,19 @@ const IndexPage: React.FC<PageProps> = () => {
 				<StaticImage
 					alt="krallice logo"
 					src="../images/krallicelogo.png"
-					className="w-1/3"
+					className="sm:w-1/3 w-full"
 				/>
 			</div>
 			<h1 className="text-center text-2xl mt-4 mb-1">
 				KRALLICE WORLD TOUR 2024
 			</h1>
 			<Shows />
-			<div className="flex justify-center mt-8">
+			<div className="flex justify-center mt-8 pb-5">
 				{" "}
 				<StaticImage
 					alt="krallice logo"
 					src="../images/poster.jpg"
-					className="w-2/3"
+					className="sm:w-1/2 w-full"
 				/>
 			</div>
 		</main>
