@@ -17,18 +17,18 @@ const IndexPage: React.FC<PageProps> = () => {
 				KRALLICE WORLD TOUR 2024
 			</h1>
 			<Shows />
-			<div className="flex justify-center mt-8 pb-5">
+			<div className="flex justify-center mt-8">
 				<StaticImage
 					alt="philly poster"
 					src="../images/phillyposter.jpg"
 					className="sm:w-1/2 sm:mx-0 mx-3 w-full"
 				/>
 			</div>
-			<div className="flex justify-center">
+			<div className="flex justify-center mt-8">
 				<StaticImage
 					alt="portland poster"
 					src="../images/portland.jpg"
-					className="sm:w-1/2 w-full"
+					className="sm:w-1/2 sm:mx-0 mx-3 w-full"
 				/>
 			</div>
 			<div className="flex justify-center mt-8 pb-5">
